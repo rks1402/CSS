@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #9e9cd1cc;
+    display: flex;
+}
+
+main nav {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+nav img {
+    height: 100px;
+    width: 100px;
+}
+
+nav h5 {
+    color: #fff;
+}
+
+#part1 {
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+
+#part2 {
+    height: 100%;
+    width: 65%;
+    background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=3276&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#part2 #overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #9e9cd16e;
+}
+
+#part3 {
+    height: 100%;
+    width: 9%;
+    /* background-color: green; */
+}
+
+#text-div {
+    color: #fff;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#text-div h1 {
+    font-size: 110px;
+    font-weight: 900;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    line-height: 90px;
+}
+
+#small-image-div {
+    height: 450px;
+    width: 350px;
+    background-image: url(https://images.unsplash.com/photo-1556755211-76b514756669?q=80&w=2307&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+}
+
+#small-image-div #small-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #928cc77c;
+}
+
+#vertical-text {
+    position: absolute;
+    top: 40%;
+    right: -23%;
+    transform: rotate(90deg);
+}
+
+#vertical-text h1 {
+    color: transparent;
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    text-transform: uppercase;
+}    
