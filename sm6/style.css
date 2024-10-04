@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: Poppins;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    padding: 8px 20px;
+    font-size: 20px;
+    border: none;
+    background-color: crimson;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: crimson;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.2s ease;
+}
+
+button:hover::before{
+    transform: scale(1.2);
+    opacity: 0;
+}
