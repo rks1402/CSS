@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#left {
+    position: relative;
+    height: 100%;
+    width: 40%;
+    background-color: #FFFFFF;
+}
+
+#l-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+#l-nav-l {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+
+#l-nav-r {
+    display: flex;
+    align-items: center;
+}
+
+#l-nav-r a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: #303030;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#l-nav-r i{
+    margin-right: 80px;
+    font-size: 25px;
+    color: #1DA1F1;
+}    
+
+#left #textcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#textcenter h1 {
+    font-size: 90px;
+    color: #303030;
+}
+
+#textcenter p {
+    font-size: 20px;
+    color: #303030;
+    line-height: 30px;
+    opacity: .6;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#textcenter a {
+    font-size: 20px;
+    color: #303030;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+#right {
+    height: 100%;
+    width: 60%;
+}
+
+#r-top {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background-color: darkgray;
+}
+
+#r-top-left {
+    height: 100%;
+    width: 55%;
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2022/11/02/Palion-Fonts-44373255-7-580x387.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#r-top-right {
+    height: 100%;
+    width: 45%;
+    background-image: url(https://images.unsplash.com/photo-1643996328486-c689aa05e73f?q=80&w=3283&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#r-bottom {
+    height: 50%;
+    width: 100%;
+    background-image: url(https://www.keenspaces.com/wp-content/uploads/2020/07/khai-sze-ong-308080-scaled-e1594380932231-2048x1079.jpg);
+    background-size: cover;
+    
+}
+
+
+@media (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+
+    main #left {
+        width: 100%;
+    }
+
+    main #right {
+        width: 100%;
+    }
+
+    #l-nav-l i {
+        font-size: 25px;
+    }
+
+    #l-nav-r a {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    
+    #l-nav-r i {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+}
+
